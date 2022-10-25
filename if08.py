@@ -16,13 +16,13 @@ def main(a):
     three_digit = a > 99 and a <1000
     even_num = a % 2
     if two_digit and even_num != 0:
-        result = "Two-digit odd number"
+        result = "two-digit odd number"
     if two_digit and even_num == 0:
-        result = "Two-digit even number"
+        result = "two-digit even number"
     if three_digit and even_num != 0:
-        result = "Three-digit odd number"
+        result = "three-digit odd number"
     if three_digit and even_num == 0:
-        result = "Three-digit even number"
+        result = "three-digit even number"
     return result
 
 print(main(44))
