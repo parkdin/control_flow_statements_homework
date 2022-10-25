@@ -22,6 +22,8 @@ def main(a):
         result = "Negative odd number"
     if a < 0 and odd_num == 0:
         result = "Negative even number"
+    if a == 0:
+        result = "Number is zero"
     return result
 
 print(main(10))
