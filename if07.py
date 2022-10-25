@@ -23,7 +23,7 @@ def main(a):
     if a < 0 and odd_num == 0:
         result = "negative even number"
     if a == 0:
-        result = "number is zero"
+        result = "the number is zero"
     return result
 
 print(main(10))
