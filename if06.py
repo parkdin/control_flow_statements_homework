@@ -22,9 +22,9 @@ def main(a,b,c):
         positive_num += 1
 
     if positive_num > 1:
-        positive_num = "There are a lot of positive numbers"
+        positive_num = "there are a lot of positive numbers"
     else:
-        positive_num = "There are a lot of negative numbers"
+        positive_num = "there are a lot of negative numbers"
     return positive_num
 
 
