@@ -15,15 +15,15 @@ def main(a):
     result = 0
     odd_num = a % 2 
     if a > 0 and odd_num != 0:
-        result = "Positive odd number"
+        result = "positive odd number"
     if a > 0 and odd_num == 0:
-        result = "Positive even number"
+        result = "positive even number"
     if a < 0 and odd_num != 0:
-        result = "Negative odd number"
+        result = "negative odd number"
     if a < 0 and odd_num == 0:
-        result = "Negative even number"
+        result = "negative even number"
     if a == 0:
-        result = "Number is zero"
+        result = "number is zero"
     return result
 
 print(main(10))
